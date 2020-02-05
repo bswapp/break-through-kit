@@ -1,5 +1,5 @@
 * {
-  margin: auto;
+  margin: 0%;
   padding: 0%;
 }
 
@@ -47,8 +47,8 @@
   .background {
     background-color: #dfcbfe;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     background-image: none;
   }
 
@@ -64,8 +64,10 @@
 
   .container-box {
     border: none;
-    display: flex;
+    margin: 0;
+    width: 100%;
   }
+
   .container-wrap {
     display: flex;
     flex-direction: column;

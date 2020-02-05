@@ -72,6 +72,16 @@
 }
 
 @media (max-width: 425px) {
+  .register-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register-space {
+    display: none;
+  }
+
   .register-button {
     height: 4rem;
     width: 80vw;
@@ -80,6 +90,11 @@
     background-color: black;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 3vh;
+  }
+
+  .register-box {
+    display: flex;
+    flex-direction: column;
   }
 
   .register-background {
