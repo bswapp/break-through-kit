@@ -1,0 +1,80 @@
+// variables
+$base-color: black;
+$base-font: "Radley", serif;
+
+//header
+.kit-header {
+  height: 10vh;
+  width: 100vw;
+  font-family: "Satisfy", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #f8f2fe;
+  font-size: 3.25rem;
+}
+
+.kit-grid {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr;
+  width: 70vw;
+  // grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 20px;
+}
+
+.kit-item {
+  border: 1px solid black;
+}
+
+.kit-grid:hover {
+  width: 75vw;
+}
+
+// .top-box {
+//   height: 10vh;
+//   width: 100%;
+//   background-color: black;
+//   color: white;
+//   font-family: "Satisfy", cursive;
+//   font-size: 4vh;
+//   display: flex;
+//   align-items: center;
+// }
+
+// .box {
+//   height: 30vh;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-image: url("../Icons/gold-chrome.jpg");
+//   background-repeat: no-repeat;
+//   background-size: auto;
+//   object-fit: contain;
+// }
+
+// .box-one {
+//   height: 30vh;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .img-container {
+//   height: 10vh;
+//   width: 30%;
+// }
+
+// .text {
+//   color: $base-color;
+//   font-family: $base-font;
+//   font-size: 3.75vh;
+//   background-color: white;
+//   background-repeat: no-repeat;
+//   border: none;
+//   cursor: pointer;
+//   overflow: hidden;
+// }

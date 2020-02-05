@@ -1,0 +1,105 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+.button {
+  border: 1px solid black;
+}
+
+.register-background {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f2fe;
+}
+
+.register-head {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Satisfy", cursive;
+  font-size: 1.5rem;
+  background-image: url("../Icons/Champagne-crumbled.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.register-space {
+  height: 1vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.register-box {
+  height: 40vh;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.register-button-box {
+  display: flex;
+}
+
+.register-input {
+  height: 3vh;
+  width: 15vw;
+  background-color: #dfcbfe;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.register-container {
+  font-family: "Radley", serif;
+  font-size: 1.25rem;
+}
+
+.register-button {
+  height: 6.5vh;
+  width: 25vw;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: "Radley", serif;
+  font-size: 1.5rem;
+}
+
+.register-button:hover {
+  box-shadow: 5px 10px 18px black;
+}
+
+@media (max-width: 425px) {
+  .register-button {
+    height: 4rem;
+    width: 80vw;
+    border-radius: 10.5px;
+    color: white;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3vh;
+  }
+
+  .register-background {
+    background-color: #dfcbfe;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Cabin", sans-serif;
+    font-size: 1rem;
+  }
+  .register-input {
+    height: 3rem;
+    width: 90vw;
+    border: 1px solid black;
+    border-radius: 5.5px;
+  }
+}

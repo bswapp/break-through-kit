@@ -1,0 +1,94 @@
+* {
+  margin: auto;
+  padding: 0%;
+}
+
+.about-container {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.about-header {
+  height: 13vh;
+  width: 100vw;
+  background-color: black;
+  color: #f8f2fe;
+  display: flex;
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+}
+
+.about-text {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img {
+  height: 35vh;
+  width: 100vw;
+  background-image: url("./Icons/Header.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.why {
+  height: 7vh;
+  width: 100vw;
+  background-color: #f8f2fe;
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  font-family: "Satisfy", cursive;
+  position: absolute;
+  font-size: 1.5rem;
+  bottom: 0;
+}
+
+@media (max-width: 425px) {
+  .about-container {
+    min-height: auto;
+  }
+
+  .about-header {
+    background-color: black;
+    color: white;
+    font-family: "Satisfy", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-text {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    width: 80vw;
+    font-size: 1rem;
+  }
+
+  .why {
+    padding-top: 2vh;
+    height: 3vh;
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+  }
+
+  .img {
+    height: 33vh;
+    width: 100vw;
+    background-image: url("./Icons/Break\ Through\ Kit.png");
+    background-position: center;
+    background-size: cover;
+  }
+}

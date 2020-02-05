@@ -1,0 +1,79 @@
+* {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: #f8f2fe;
+}
+
+.h1 {
+  font-family: "Radley", serif;
+  font-size: 3.5rem;
+}
+
+.order-space {
+  height: 0.5rem;
+  width: 100vw;
+  background-color: black;
+}
+
+.order-container {
+  height: 5vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+}
+
+.home-img {
+  height: 40vh;
+  width: 100vw;
+  background-image: url("../Icons/Header.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.view-order {
+  color: white;
+  font-family: "Cabin", sans-serif;
+  text-decoration: none;
+  text-emphasis: none;
+}
+
+.small-container {
+  height: 13vh;
+  background-color: #dfcbfe;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.product-space {
+  font-family: "Satisfy", cursive;
+  font-size: 2.8rem;
+  color: black;
+}
+
+.home-gold-img {
+  height: 35vh;
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/dx8jjuurn/image/upload/v1580779197/break-home_2_pawnpi.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.home-footer {
+  height: 6vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-size: 1.5rem;
+  display: flex;
+}

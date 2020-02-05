@@ -1,0 +1,88 @@
+.product-header {
+  height: 15vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-size: 1.75rem;
+  display: flex;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100vw;
+  background-color: #f8f2fe;
+  font-family: "Cabin", sans-serif;
+}
+
+.product-caption {
+  font-size: 1.5rem;
+}
+
+.product-contents {
+  font-size: 1.3rem;
+}
+
+.products-button {
+  height: 6vh;
+  width: 18vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Radley", serif;
+  font-size: 1.5rem;
+}
+
+.products-button:hover {
+  color: lavender;
+  box-shadow: 5px 10px 18px black;
+}
+
+.cart-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-cart {
+  margin-top: 15px;
+  height: 4vh;
+  width: 10vw;
+  border: 5px double black;
+  border-radius: 10px;
+  display: flex;
+  //   background-image: url("");
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-contents {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 3vh;
+  width: 20vw;
+  display: flex;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.2rem;
+}
+
+.check-out-button {
+  height: 5vh;
+  width: 18vw;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Radley", serif;
+  font-size: 1.5rem;
+}
+
+.check-out-button:hover {
+  color: lavender;
+  box-shadow: 5px 10px 18px black;
+}

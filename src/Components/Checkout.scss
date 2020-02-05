@@ -1,0 +1,39 @@
+.checkout-header {
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: #f8f2fe;
+  font-family: "Satisfy", cursive;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.space {
+  height: 10vh;
+  background-color: white;
+}
+
+.checkout-cart {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f8f2fe;
+  font-family: "Radley", serif;
+  font-size: 1.5rem;
+}
+
+.checkout-total {
+  height: 5vh;
+  width: 20vw;
+  //   flex-direction: column;
+  display: flex;
+  font-family: "Radley" serif;
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
+}
+
+.stripe-pay-button {
+  height: 5vh;
+  width: 10vh;
+  display: flex;
+}
